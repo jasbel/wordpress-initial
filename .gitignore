@@ -1,0 +1,102 @@
+# Add any directories, files, or patterns you don't want to be tracked by version control
+
+# ignore everything in the root except the "wp-content" directory.
+/*
+!wp-content/
+!db/
+!html/
+# ignore all files starting with .
+.*
+.scssc
+wp-content/themes/acgs/.sass-cache/
+
+# track this file .gitignore (i.e. do NOT ignore it)
+!.gitignore
+
+# track .editorconfig file (i.e. do NOT ignore it)
+!.editorconfig
+
+# track readme.md in the root (i.e. do NOT ignore it)
+!readme.md
+
+# ignore all files that start with ~
+~*
+
+# ignore OS generated files
+ehthumbs.db
+Thumbs.db
+
+# ignore Editor files
+*.sublime-project
+*.sublime-workspace
+*.komodoproject
+
+# ignore log files and databases
+*.log
+*.sql
+*.sqlite
+
+# ignore compiled files
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# ignore packaged files
+*.7z
+*.dmg
+*.iso
+*.jar
+*.rar
+*.tar
+
+
+# ignore everything in the "wp-content" directory, except:
+# "mu-plugins" directory
+# "plugins" directory
+# "themes" directory
+wp-content/*
+!wp-content/mu-plugins/
+!wp-content/ai1wm-backups/
+!wp-content/plugins/
+!wp-content/themes/
+!wp-content/uploads/
+
+# log files
+wp-content/mu-plugins/**/*.log
+wp-content/ai1wm-backups/**/*.log
+wp-content/plugins/**/*.log
+wp-content/themes/**/*.log
+wp-content/uploads/**/*.log
+
+# .DS_STORE
+wp-content/mu-plugins/**/.DS_STORE
+wp-content/ai1wm-backups/**/.DS_STORE
+wp-content/plugins/**/.DS_STORE
+wp-content/themes/**/.DS_STORE
+wp-content/uploads/**/.DS_STORE
+
+# ignore these plugins from the core
+wp-content/plugins/hello.php
+wp-content/plugins/akismet/
+
+# ignore specific themes
+wp-content/themes/twenty*/
+
+# ignore node/grunt dependency directories
+node_modules/
+wp-content/plugins/all-in-one-wp-migration/storage/error\.log
+
+wp-content/uploads/wc-logs/fatal-errors-2018-09-06-54fea90b491550946e099faded23690a\.log
+
+# custom
+wp-content/themes/iiotatlas_gp/assets/vendor/
+wp-content/uploads/generateblocks/
+!wp-content/themes/iiotatlas_gp/assets/vendor/scss/bootstrap5/
+wp-content/ai1wm-backups/iiotatlas.local-20210214-172907-9u1m8r.wpress
+wp-content/ai1wm-backups/iiotatlas.local-20210225-130604-0erqnw.wpress
+wp-content/ai1wm-backups/iiotatlas.local-20210225-215656-eli7r1.wpress
+wp-content/ai1wm-backups/iiotatlas.local-20210225-223544-1u8vpz.wpress
+wp-content/ai1wm-backups/iiotatlas.local-20210226-131320-ota053.wpress
