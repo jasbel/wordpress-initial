@@ -1,0 +1,13 @@
+/*
+Theme Name: Twenty Twenty child
+Theme URI: https://wordpress.org/themes/twentytwenty/
+Version: 1.0
+Description: Tema hijo de Twenty Twenty
+Author: Asbel Apaza
+Author URI: https://github.com/jasbel
+Template: initial
+*/
+
+body {
+    background-color: yellow;
+}
